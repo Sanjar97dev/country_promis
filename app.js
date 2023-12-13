@@ -38,7 +38,6 @@ input.onchange = () => {
       if (countFilter.length > 0) {
         showUsers(countFilter);
       } else {
-        // Handle the case when no matching countries are found
         ulTag.innerHTML = '<li>No matching countries found</li>';
       }
     }, 2000);
